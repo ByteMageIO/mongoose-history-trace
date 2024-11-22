@@ -3,7 +3,7 @@ const mongooseHistoryTrace = require('../../lib/plugin')
 const { HistoryLogModel } = require('../../lib/model')
 const ObjectId = require('mongoose').Types.ObjectId
 const mongoose = require('mongoose')
-const Promise = require('bluebird')
+// const Promise = require('bluebird')
 const { toString, get, map, keys, isEmpty, merge } = require('lodash')
 
 mongoose.Promise = global.Promise
